@@ -12,23 +12,19 @@ We will write our code on [Repl.it](repl.it). Sign up for an account and select 
 
 Here are the slides: [Link](link)
 
+Here is the full code:
+* [Beginner]()
+* [Intermediate]()
+
 Skip to a section:
 
-- [Print empty tic-tac-toe board](#03)
-- [Add X and O to board](#04)
-- [Let user add an X to the board](#05)
-- [Check for winner](#06)
-- [Intro to `if` statement](#07)
-- [A faster way to check for winner](#08)
-- [Intro to `for` loops](#09)
-- [Checking for diagonal lines](#10)
-- [A cleaner and more efficient way to organize code](#11)
-- [Putting everything into functions](#12)
-- [Getting user input continuously](#13)
-- [Adding players](#14)
-- [Check for tie and call it a game](#15)
+- [Print empty tic-tac-toe board](#01)
+- [User input and variables](#02)
+- [Lists](#03)
+- [`if` statements for checking the board](#04)
+- [`while` loops for repeated user input](#05)
 
-<a name = "03"></a>
+<a name = "01"></a>
 
 ### Print empty tic-tac-toe board
 
@@ -39,7 +35,7 @@ print(" 3 | 4 | 5 ")
 print(" 6 | 7 | 8 ")
 ```
 
-<a name = "04"></a>
+<a name = "02"></a>
 
 ### User input and variables
 ```python
@@ -48,6 +44,7 @@ boardPosition = input("{}, chose your position (0-8): ".format(player))
 boardPosition = int(boardPosition)
 ```
 
+<a name = "03"></a>
 ### Lists
 ```python
 wilfredsList = ["Bananas", "Strawberries", "Tomatoes"] # note: the quotes just mean "this is a word" (not a number)
@@ -64,6 +61,7 @@ print(board[3]) # prints X
 
 [Solution to printing custom board exercise](https://github.com/marihacks/learnathon-solutions/blob/master/if-statement.md)
 
+<a name = "04"></a>
 ### `if` statements for checking the board
 Check for horizontal lines:
 ```python
@@ -73,7 +71,8 @@ if (board[0] == board[1] == board[2]) or \
     print('{} wins!'.format(player))
 ```
 
-### Getting user input continuously
+<a name = "05"></a>
+### `while` loops for repeated user input
 
 ```python
 board = ['0','1','2','3','4','5','6','7','8']
