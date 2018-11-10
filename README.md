@@ -59,7 +59,7 @@ board[3] = 'X'
 print(board[3]) # prints X
 ```
 
-[Solution to printing custom board exercise](https://github.com/marihacks/learnathon-solutions/blob/master/if-statement.md)
+[Solution to printing custom board exercise](https://github.com/marihacks/learnathon-2018f/blob/master/print-custom.board.py)
 
 <a name = "04"></a>
 ### `if` statements for checking the board
@@ -70,6 +70,8 @@ if (board[0] == board[1] == board[2]) or \
    (board[6] == board[7] == board[8]):
     print('{} wins!'.format(player))
 ```
+
+[Solution to check diagonal exercise](https://github.com/marihacks/learnathon-2018f/blob/master/check-diagonal.py)
 
 <a name = "05"></a>
 ### `while` loops for repeated user input
