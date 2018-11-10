@@ -10,11 +10,11 @@ If you have any questions, feel free to shoot us an email at raphael.hotter@gmai
 
 We will write our code on [Repl.it](repl.it). Sign up for an account and select Python3 and you're good to go!
 
-Here are the slides: [Link](link)
+Here are the [slides](https://github.com/marihacks/learnathon-2018f/blob/master/Intro%20to%20Programming%20with%20Python.pdf).
 
 Here is the full code:
-* [Beginner]()
-* [Intermediate]()
+* [Beginner](https://github.com/marihacks/learnathon-2018f/blob/master/tic-tac-toe-beginner.py)
+* [Intermediate](https://github.com/marihacks/learnathon-2018f/blob/master/tic-tac-toe-intermediate.py)
 
 Skip to a section:
 
