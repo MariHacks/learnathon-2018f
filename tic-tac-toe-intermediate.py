@@ -30,7 +30,7 @@ def checkDiagonal(board):
     if board[0] == board[4] == board[8] or board[2] == board[4] == board[6]:
         return True
 
-# Initialize board array
+# Initialize board list
 board = ['0','1','2','3','4','5','6','7','8']
 player = 'X'
 
