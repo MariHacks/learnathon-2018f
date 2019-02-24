@@ -6,15 +6,17 @@
 
 Here you'll find all the source code from the workshop.
 
-If you have any questions, feel free to shoot us an email at raphael.hotter@gmail.com or wilfredmason4@yahoo.ca.
+If you have any questions, feel free to shoot us an email at
+raphael.hotter@gmail.com or wilfredmason4@yahoo.ca.
 
-We will write our code on [Repl.it](repl.it). Sign up for an account and select Python3 and you're good to go!
+We will write our code on [Repl.it](repl.it). Sign up for an account and
+select Python3 and you're good to go!
 
-Here are the [slides](https://github.com/marihacks/learnathon-2018f/blob/master/Intro%20to%20Programming%20with%20Python.pdf).
+Here are the [slides](slides.pdf).
 
 Here is the full code:
-* [Beginner](https://github.com/marihacks/learnathon-2018f/blob/master/tic-tac-toe-beginner.py)
-* [Intermediate](https://github.com/marihacks/learnathon-2018f/blob/master/tic-tac-toe-intermediate.py)
+* [Beginner](solutions/tic-tac-toe-beginner.py)
+* [Intermediate](solutions/tic-tac-toe-intermediate.py)
 
 Skip to a section:
 
@@ -59,7 +61,7 @@ board[3] = 'X'
 print(board[3]) # prints X
 ```
 
-[Solution to printing custom board exercise](https://github.com/marihacks/learnathon-2018f/blob/master/print-custom.board.py)
+[Solution to printing custom board exercise](solutions/print-custom.board.py)
 
 <a name = "04"></a>
 ### `if` statements for checking the board
@@ -71,7 +73,7 @@ if (board[0] == board[1] == board[2]) or \
     print('{} wins!'.format(player))
 ```
 
-[Solution to check diagonal exercise](https://github.com/marihacks/learnathon-2018f/blob/master/check-diagonal.py)
+[Solution to check diagonal exercise](solutions/check-diagonal.py)
 
 <a name = "05"></a>
 ### `while` loops for repeated user input
